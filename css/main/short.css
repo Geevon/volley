@@ -1,0 +1,110 @@
+/* About section */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ddd;
+  height: 300px;
+  border-radius: var(--border-radius);
+}
+
+
+/* Basics section */
+ .basics-content {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .basics-item {
+    flex: 1;
+    min-width: 250px;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: var(--box-shadow);
+  }
+
+
+  /* Rules section */
+  .rules-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .rules-list li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 1.5rem;
+    list-style-type: none;
+  }
+  
+  .rules-list li::before {
+    content: '•';
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+  }  
+
+
+  /* Get Started section */
+  .get-started-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .get-started-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .join-community {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin-top: 2rem;
+  }
+  
+  .resource-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }  
+
+
+  /* Footer */
+  footer {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 0.5rem;
+  }

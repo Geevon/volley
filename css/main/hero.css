@@ -1,0 +1,27 @@
+ /* Hero section */
+ .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../pics/geevon.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: var(--light-text);
+    text-align: center;
+    padding: 8rem 0;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--light-text);
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  
